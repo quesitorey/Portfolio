@@ -1,0 +1,122 @@
+.about-img{
+  max-width: 10rem;
+  border-radius: 50%;
+}
+.about-container{
+  grid-template-columns: 3fr 9fr;
+
+}
+.about-data{
+  padding: 1.9rem;
+  box-shadow: var(--shadow);
+  background-color: var(--body-color);
+  border-radius: var(--border-radius);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.8rem;
+  align-items: flex-start;
+  position: relative;
+}
+.about-data::before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid var(--body-color); 
+  position: absolute;
+  left: -0.93rem;
+  top: 20%;
+}
+
+.about-description{
+  margin-bottom: 1rem;
+}
+.about-skill{
+  row-gap: 1.25rem;
+}
+.skill-title{
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.2;
+}
+.skill-name{
+  font-size: var(--normail-font-size);
+  font-weight: var(--font-medium);
+}
+.skill-number{
+  line-height: 2;
+}
+.skill-bar,
+.skill-percentage{
+  height: 7px;
+  border-radius: 0.25rem; 
+}
+.skill-bar{
+  background-color: #f1f1f1;
+}
+.skill-percentage{
+  display: block;
+}
+.development{
+  background-color: #b4deee;
+  width: 78%;
+}
+.ui{
+  background-color: rgb(249, 215, 76);
+  width: 80%;
+}
+.react{
+  background-color: rgb(243, 109, 127);
+  width: 70%;
+}
+.about-boxes{
+  grid-template-columns: repeat(3, 1fr);
+  colmn-ghap: 1.9rem;
+  margin-top: 7rem;
+}
+.about-box{
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: center;
+}
+.about-icon{
+  font-size: var(--h1-font-size);
+  color: #dedeea;
+}
+.about-title{
+  font-size: 1.9rem;
+}
+
+@media screen and (max-width: 1024px){
+  .about-container{
+    grid-template-columns: 1fr;
+  }
+  .about-data{
+    margin: 3rem 1.5rem 0;
+  }
+  .about-data::before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-bottom: 30px solid var(--body-color);
+  border-right: 30px solid transparent; 
+  position: absolute;
+  left: 45%;
+  top: -25px;
+  }
+  .about-img{
+    justify-self: center;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .about-data{
+    grid-template-columns: 1fr;
+  }
+  .about-skill{
+    margin-top: 1.5rem;
+  }
+  
+}

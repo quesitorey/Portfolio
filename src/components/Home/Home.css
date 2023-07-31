@@ -1,0 +1,125 @@
+.home-img-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.home-img{
+  width: 20rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  margin-right: -4rem;
+}
+.home-box{
+  background-color: var(--title-color);
+  min-height: 20rem;
+  min-width: 20rem;
+  border-radius: 20px;
+
+  position: relative;
+  left: -14rem;
+  top: 1.5rem;
+  z-index: -1;
+}
+.home-container{
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.introduction{
+  max-width: 540px;
+  text-align: center;
+}
+.home-name{
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: .5rem;
+}
+.home-socials{
+  display: flex;
+  column-gap: 1.75rem;
+  margin: 1.5rem 0;
+}
+.home-social-link{
+  
+  font-size: 1.3rem;
+  transition: .3s;
+}
+.home-social-link:hover{
+  color: var(--title-color);
+}
+
+.scroll-down{
+  position: absolute;
+  bottom: 4rem;
+  left: 0;
+  width: 100%;
+}
+.home-scroll-name{
+  font-size: var(--small-font-size);
+}
+.mouse{
+  border: 2px solid var(--text-color);
+  display: block;
+  height: 1.6rem;
+  width: 1.25rem;
+  margin: auto;
+  margin-top: .75rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.wheel{
+  background-color: var(--title-color);
+  border-radius: 100%;
+  width: 0.25rem;
+  height: 0.25rem;
+  position: absolute;
+  top: .5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: mouse 2s linear infinite;
+}
+@keyframes mouse{
+  0%{
+    top:29%;
+  }
+  15%{
+    top: 50%;
+  }
+  50%{
+    top: 50%;
+  }
+  100%{
+    top: 29%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .home-social-link{
+    font-size: 1.12rem;
+  }
+  .home-img{
+    max-width: 12rem;
+    max-height: 12rem;
+  }
+  .home-box{
+    min-width: 12rem;
+    min-height: 12rem;
+    left: -6.5rem;
+    top: .2rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .home-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .home-img-container{
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+  }
+}

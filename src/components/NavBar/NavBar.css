@@ -1,0 +1,45 @@
+.div{
+  position: relative;
+}
+.nav{
+  width: 100%;
+  height: 2rem;
+  margin-right: 3rem;
+  padding-right: 3rem;
+  margin-top: -1.6rem;
+}
+.nav__logo{
+  display: flex;
+}
+.bxs-cat{
+  font-size: var(--h1-font-size);
+  margin: 1rem 1rem 0 1rem;
+}
+.nav__menu {
+  flex-direction:row;
+  position: relative;
+  display: flex;
+  justify-content: right;
+}
+.nav__link{
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.navbar-item{
+  list-style: none;
+  padding: 0 2rem;
+  height: 4rem;
+}
+.navbar-item:hover{
+  position: relative;
+  padding-top: 1.7rem;
+  top: -2rem;
+  background-color: var(--title-color);
+  cursor: pointer
+}
+@media screen and (max-width: 480px){
+  .bxs-cat{
+    display: none;
+  }
+}
