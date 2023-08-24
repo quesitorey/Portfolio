@@ -12,20 +12,20 @@ const Services = () => {
 
         <div className='services-card'>
           <img src={Service1} className='services-img'/>
-          <h3 className='services-title'>UI/UX Design</h3>
-          <p className='services-description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+          <h3 className='services-title'>CSS</h3>
+          <p className='services-description'>Me gusta que mis proyectos queden bonitos y bien estructurados, todo lo necesario para que sean agradable visualmente.</p>
         </div>
 
         <div className='services-card'>
           <img src={Service2} className='services-img'/>
-          <h3 className='services-title'>Web Development</h3>
-          <p className='services-description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+          <h3 className='services-title'>Desarrollo Web</h3>
+          <p className='services-description'>La organizacion es una caracteristica mia, en mi codigo siempre habran secciones y clases.</p>
         </div>
 
         <div className='services-card'>
           <img src={Service3} className='services-img'/>
-          <h3 className='services-title'>Photography</h3>
-          <p className='services-description'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+          <h3 className='services-title'>React</h3>
+          <p className='services-description'>Actualmente puliendo los detalles de esta interesante libreria que estoy aprendiendo.</p>
         </div>
         
       </div>

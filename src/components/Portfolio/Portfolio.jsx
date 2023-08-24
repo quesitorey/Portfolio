@@ -41,13 +41,6 @@ const Portfolio = () => {
           </div>
         </div>
 
-         <div className='work-container-child'>
-          <img className='work-img' src={Ecommerce}/>
-          <div className='work-description'>
-            <a href='https://e-commerce-gen-25.netlify.app/' target='_blank' className='work-link'><p>E-commerce</p></a>
-          </div>
-        </div>
-
         <div className='work-container-child'>
           <img className='work-img' src={Portafolio}/>
           <div className='work-description'>

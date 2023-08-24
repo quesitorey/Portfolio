@@ -1,5 +1,5 @@
 import './About.css'
-import Abt from '../../assets/avatar2.jpg'
+import Abt from '../../assets/Domi2.jpg'
 import AboutBox from './AboutBox'
 
 const About = () => {
@@ -12,15 +12,15 @@ const About = () => {
 
         <div className='about-data grid'>
           <div className='about-info'>
-            <p className='about-description'>Hi I'm Domitila Oceda, FullStack developer from Lima, Peru. I have a lot of experience in web design and building.</p>
-            <a href='' className='btn'>Download CV</a>
+            <p className='about-description'>Hola! Soy Domitila Oceda, alguien que esta en pasos de aprendizaje para ser FullStack developer, pero con algo de experiencia en desarrollar proyectos visualmente agradables.</p>
+            
           </div>
 
           <div className='about-skill grid'>
             <div className='skill-data'>
               <div className='skill-title'>
-                <h3 className='skill-name'>Development</h3>
-                <span className='skill-number'>78%</span>
+                <h3 className='skill-name'>CSS</h3>
+                <span className='skill-number'>60%</span>
               </div>
               <div className='skill-bar'>
                 <span className='skill-percentage development'></span>
@@ -29,7 +29,7 @@ const About = () => {
 
             <div className='skill-data'>
               <div className='skill-title'>
-                <h3 className='skill-name'>UI/UX Design</h3>
+                <h3 className='skill-name'>HTML</h3>
                 <span className='skill-number'>80%</span>
               </div>
               <div className='skill-bar'>

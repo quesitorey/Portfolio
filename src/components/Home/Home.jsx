@@ -1,7 +1,7 @@
 import './Home.css'
 import HeaderSocial from './HeaderSocial'
 import Scroll from './Scroll'
-import avatar from '../../assets/avatar.jpg'
+import avatar from '../../assets/Domi2.jpg'
 const Home = () => {
   return(
     <section className='home-container' id='home'>
@@ -11,11 +11,9 @@ const Home = () => {
         </div>
       <div className='introduction'>
         <h1 className='home-name'>Domitila Oceda</h1>
-        <span className='home-education'>I'm a FullStack Developer</span>
+        <span className='home-education'>Soy una estudiante de FullStack</span>
 
         <HeaderSocial/>
-
-        <a href='#contact' className='btn'>Contact Me</a>
 
         <Scroll/>
       </div>
