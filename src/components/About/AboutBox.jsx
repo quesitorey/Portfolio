@@ -7,8 +7,8 @@ const AboutBox = () => {
         <i className='about-icon bx bxs-hot'></i>
 
         <div>
-          <h3 className='about-title'>7</h3>
-          <span className='about-subtitle'>Proyectos Completados</span>
+          <h3 className='about-title'>6</h3>
+          <span className='about-subtitle'>Projects completed</span>
         </div>
       </div>
 
@@ -17,7 +17,7 @@ const AboutBox = () => {
 
         <div>
           <h3 className='about-title'>400</h3>
-          <span className='about-subtitle'>Horas de apredizaje</span>
+          <span className='about-subtitle'>Hours of learning</span>
         </div>
       </div>
     </div>

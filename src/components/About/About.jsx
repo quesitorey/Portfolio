@@ -12,7 +12,7 @@ const About = () => {
 
         <div className='about-data grid'>
           <div className='about-info'>
-            <p className='about-description'>Hola! Soy Domitila Oceda, alguien que esta en pasos de aprendizaje para ser FullStack developer, pero con algo de experiencia en desarrollar proyectos visualmente agradables.</p>
+            <p className='about-description'>Hi! I'm Domitila Oceda, a FrontEnd developer with React and soon a BackEnd developer with Node.js. I like creating and designing websites that are nice to look at. I'm always waiting for learn something new.</p>
             
           </div>
 
@@ -30,7 +30,7 @@ const About = () => {
             <div className='skill-data'>
               <div className='skill-title'>
                 <h3 className='skill-name'>HTML</h3>
-                <span className='skill-number'>80%</span>
+                <span className='skill-number'>70%</span>
               </div>
               <div className='skill-bar'>
                 <span className='skill-percentage ui'></span>
